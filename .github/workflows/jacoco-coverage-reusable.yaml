@@ -1,0 +1,21 @@
+name: jacoco-coverage-reusable
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment: 
+        description: "Environment to apply changes"
+        default: "dev"
+        type: choice
+        required: true
+        options:
+          - "dev"
+          - "uat"
+          - "prd"
+
+jobs:
+  execute-jacaco-coverage:
+    uses: nigamshashankblueberry/blueberry-reusable-workflows/.github/workflows/jacoco-coverage.yaml@devops
+    with:
+     ENV: ${{ github.event.inputs.environment}}
+    

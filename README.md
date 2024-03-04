@@ -1,4 +1,5 @@
 # java-junit-sample
+[![codeql_scan](https://github.com/nigamshashankblueberry/java-junit-sample/actions/workflows/code-ql-check.yaml/badge.svg)](https://github.com/nigamshashankblueberry/java-junit-sample/actions/workflows/code-ql-check.yaml) ![Coverage](.githubdata/badges/jacoco.svg)
 
 This project is meant to show the usage of JUnit, Mockito and Powermock for unit testing in Java.
 To be able to show some "real" examples a kind of dummy application is provided here to have some

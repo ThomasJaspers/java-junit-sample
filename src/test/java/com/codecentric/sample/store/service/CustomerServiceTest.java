@@ -6,7 +6,6 @@ import com.codecentric.sample.store.repository.ItemRepository;
 import com.codecentric.sample.store.service.external.AddressService;
 import com.codecentric.sample.store.service.external.HostService;
 import com.codecentric.sample.store.service.tools.StaticService;
-import com.sun.jndi.cosnaming.IiopUrl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
